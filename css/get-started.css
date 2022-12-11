@@ -1,0 +1,9 @@
+body {
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+#wrapper {
+    background-image: url('img/get-started.jpeg'); 
+    background-size: cover; 
+    min-height: 100%;
+}

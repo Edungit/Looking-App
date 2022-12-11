@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat';font-size: 22px;
+    background-image: url('../img/Createbg.jpg');
+    background-size: cover;
+}
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px);
+    height: 150vh;
+      width: 100%;
+}
+.signup-form {
+    background-color: aliceblue;
+    width: 70%;
+    top: 15%; 
+    left: 15%; 
+    position: fixed;
+    padding: 0px;
+    border-radius: 10px;
+}
+.signup-img {
+    margin-left: -14px; 
+    height: 105vh; 
+    border-radius: 10px;
+}
+.signup-col {
+    padding-right: 70px;
+}
+.border {
+    border-radius: 15px;
+}
+.sign-btn {
+    width: 100%; 
+    border-radius: 20px; 
+    background-color: #00008B; 
+    color: aliceblue;
+}
+.sign-btn:hover {
+    width: 100%; 
+    border-radius: 20px; 
+    background-color: white; 
+    color: #00008B;
+    border: #00008B solid 1px;
+}
+.a-tag {
+    text-decoration: none; 
+    color:  rgb(255, 255, 255);
+}
+
+.a-tag:hover {
+    text-decoration: none; 
+    color: #00008B;
+}

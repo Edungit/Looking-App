@@ -1,0 +1,64 @@
+body {
+    font-family: 'Montserrat';font-size: 22px;
+    background-image: url('../img/loginbg.jpg');
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.blur {
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px);
+    height: 130vh;
+    width: 100%;
+}
+.login-form {
+    background-color: aliceblue;
+    width: 70%;
+    top: 15%; 
+    left: 15%; 
+    position: fixed;
+    padding: 0px;
+    border-radius: 10px;
+}
+.login-img {
+    margin-left: -14px; 
+    height: 105vh; 
+    border-radius: 10px;
+}
+#form-col {
+    padding-right: 70px;
+}
+label {
+    font-size: 13px;
+}
+.border {
+    border-radius: 15px;
+}
+.login-btn {
+    width: 100%; 
+    border-radius: 20px; 
+    background-color: #00008B; 
+    color: aliceblue;
+}
+.login-btn:hover {
+    width: 100%; 
+    border-radius: 20px; 
+    background-color: white; 
+    color: #00008B;
+    border: #00008B solid 1px;
+}
+.or {
+    text-align: center;
+}
+
+.a-tag {
+    text-decoration: none; 
+    color:  rgb(255, 255, 255);
+}
+
+.a-tag:hover {
+    text-decoration: none; 
+    color: #00008B;
+}
+
+
